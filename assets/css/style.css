@@ -10,7 +10,11 @@ body {
 }
 /* HEADER */
 #section-header {
-  background-color: #0099bb;
+  background: linear-gradient(
+    180deg,
+    rgba(1, 170, 205, 1) 0%,
+    rgba(17, 119, 136, 1) 100%
+  );
   text-align: center;
   color: white;
   padding: 1.5em 0em;
@@ -33,14 +37,14 @@ h2 {
 }
 #credits {
   color: gray;
-  margin: 1em;
+  margin: 1em 0em;
 }
 main span {
   color: #aa2072;
   font-weight: 550;
 }
 .paragraph {
-  margin: 1em;
+  margin: 1em 0em;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 li span {
@@ -49,6 +53,10 @@ li span {
   border: 1px solid #908e8f;
   background-color: #ddddde;
   border-radius: 5px;
+}
+#tool {
+  color: #01aacd;
+  text-decoration: underline;
 }
 iframe {
   border-radius: 40px;
@@ -61,7 +69,6 @@ table {
 th {
   background-color: #3366cc;
   color: white;
-  height: 50px;
   border: 0.1px solid #6e94de;
 }
 tr {
@@ -71,12 +78,29 @@ caption {
   font-style: italic;
   font-weight: 550;
 }
+.greytd {
+  background-color: #eeeeee;
+  border-top: 1px solid #ddddde;
+  border-bottom: 1px solid #ddddde;
+  border-left: 1px solid #f8f8f8;
+  border-right: 1px solid #f8f8f8;
+}
+.lasttd {
+  border-bottom: 1px solid #3366cc;
+}
+td {
+  vertical-align: center;
+}
+th,
+td {
+  padding: 1em;
+}
 
 /* FORM */
 #sectionnews {
   background-color: rgb(209, 209, 209);
   padding: 1em;
-  margin: 1em;
+  margin: 1em 0em;
 }
 section h2 {
   text-align: center;
@@ -91,13 +115,14 @@ button {
 #inputmail {
   border: transparent;
   border-bottom: 1px dashed rgb(139, 139, 139);
+  margin-top: 1em;
 }
 /* ELEMENTI NELL' ASIDE */
 article {
   background-color: rgb(209, 209, 209);
   border: 0.1px solid rgb(92, 90, 90);
   padding: 1em;
-  margin: 1em;
+  margin: 1em 0em;
 }
 .blueparagraph {
   color: #0099cc;
@@ -109,16 +134,22 @@ article {
 }
 /* FOOTER */
 footer {
-  background: #005566;
-  background:
-    90deg,
-    rgba(0, 85, 102, 1) 0%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 85, 102, 1) 0%,
+    rgba(42, 51, 56, 1) 100%
+  );
   color: white;
   margin: 2em 0em;
-  padding: 4em 0em;
+  padding: 2em 0em;
+  padding-top: 1em;
   text-align: center;
-  vertical-align: center;
 }
 #blogepicode {
   padding-bottom: 3em;
+}
+#emaildecoration {
+  color: #e815d5;
+  text-decoration: underline;
+  font-weight: 600;
 }
