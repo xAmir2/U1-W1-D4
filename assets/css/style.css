@@ -50,13 +50,63 @@ li span {
   background-color: #ddddde;
   border-radius: 5px;
 }
-
+iframe {
+  border-radius: 40px;
+}
 /* TABELLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: #3366cc;
+  color: white;
+  height: 50px;
+  border: 0.1px solid #6e94de;
+}
+tr {
+  text-align: center;
+}
+caption {
+  font-style: italic;
+  font-weight: 550;
+}
 
 /* FORM */
-
+#sectionnews {
+  background-color: rgb(209, 209, 209);
+  padding: 1em;
+  margin: 1em;
+}
+section h2 {
+  text-align: center;
+}
+.pstart {
+  text-align: start;
+}
+button {
+  background-color: #3673b2;
+  color: white;
+}
+#inputmail {
+  border: transparent;
+  border-bottom: 1px dashed rgb(139, 139, 139);
+}
 /* ELEMENTI NELL' ASIDE */
-
+article {
+  background-color: rgb(209, 209, 209);
+  border: 0.1px solid rgb(92, 90, 90);
+  padding: 1em;
+  margin: 1em;
+}
+.blueparagraph {
+  color: #0099cc;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.dateparagraph {
+  text-align: end;
+}
 /* FOOTER */
 footer {
   background: #005566;
@@ -70,6 +120,5 @@ footer {
   vertical-align: center;
 }
 #blogepicode {
-    
+  padding-bottom: 3em;
 }
-
