@@ -24,12 +24,12 @@ main {
   background-color: white;
   padding: 1em 1em;
   margin: 1em 0em;
-  border-left: 0.1px solid #DDDDDE;
-  border-right: 0.1px solid #DDDDDE;
+  border-left: 0.1px solid #ddddde;
+  border-right: 0.1px solid #ddddde;
 }
 h2 {
-    font-weight: 500;
-    margin: 1em;
+  font-weight: 500;
+  margin: 1em;
 }
 #credits {
   color: gray;
@@ -40,15 +40,15 @@ main span {
   font-weight: 550;
 }
 .paragraph {
-    margin: 1em;
+  margin: 1em;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 li span {
-    color: black;
-    font-weight: 400;
-    border: 1px solid #908E8F;
-    background-color: #DDDDDE;
-    border-radius: 5px;
+  color: black;
+  font-weight: 400;
+  border: 1px solid #908e8f;
+  background-color: #ddddde;
+  border-radius: 5px;
 }
 
 /* TABELLE */
@@ -58,3 +58,18 @@ li span {
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+footer {
+  background: #005566;
+  background:
+    90deg,
+    rgba(0, 85, 102, 1) 0%;
+  color: white;
+  margin: 2em 0em;
+  padding: 4em 0em;
+  text-align: center;
+  vertical-align: center;
+}
+#blogepicode {
+    
+}
+
